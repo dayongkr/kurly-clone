@@ -53,7 +53,7 @@ header {
 }
 
 #headerTop {
-  width: 1060px;
+  width: 1050px;
   height: 37px;
   margin: 0 auto;
   display: flex;
@@ -70,16 +70,15 @@ header {
   cursor: pointer;
   margin-left: 30px;
 }
-
-#userMenu {
-  margin-right: -20px;
-}
-
 .userItem {
   float: left;
   margin-right: 20px;
   font-size: 12px;
   cursor: pointer;
+}
+
+.userItem:last-child {
+  margin-right: 0;
 }
 
 .strong {
@@ -107,6 +106,7 @@ header {
   height: 55px;
   box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.03);
   background-color: white;
+  z-index: 99;
 }
 #headerBottWrap {
   width: 1050px;
@@ -166,4 +166,53 @@ header {
   display: inline-block;
   margin-top: 12px;
   margin-left: 7.5px;
+}
+
+#mainSlideWrap {
+  min-width: 1050px;
+  height: 370px;
+  position: relative;
+  overflow: hidden;
+}
+
+#mainSlide {
+  height: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  transition: left 1s;
+}
+
+#mainSlide .slideImg {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+
+#mainSlideWrap:hover #slideControl {
+  opacity: 1;
+}
+
+#mainSlideWrap #slideControl {
+  opacity: 0;
+  transition: opacity 1s;
+  min-width: 1050px;
+  width: 80%;
+  height: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#slideControl img {
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
 }
