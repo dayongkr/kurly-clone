@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kurly-clone/static/css/main.4162bca4.chunk.css",
-    "main.js": "/kurly-clone/static/js/main.a749a779.chunk.js",
-    "main.js.map": "/kurly-clone/static/js/main.a749a779.chunk.js.map",
+    "main.css": "/kurly-clone/static/css/main.35528cc3.chunk.css",
+    "main.js": "/kurly-clone/static/js/main.79714610.chunk.js",
+    "main.js.map": "/kurly-clone/static/js/main.79714610.chunk.js.map",
     "runtime~main.js": "/kurly-clone/static/js/runtime~main.0ef87115.js",
     "runtime~main.js.map": "/kurly-clone/static/js/runtime~main.0ef87115.js.map",
     "static/js/2.3310f33a.chunk.js": "/kurly-clone/static/js/2.3310f33a.chunk.js",
     "static/js/2.3310f33a.chunk.js.map": "/kurly-clone/static/js/2.3310f33a.chunk.js.map",
     "index.html": "/kurly-clone/index.html",
-    "precache-manifest.e30687f5f866cc5c3243d1094d8675dd.js": "/kurly-clone/precache-manifest.e30687f5f866cc5c3243d1094d8675dd.js",
+    "precache-manifest.ff776f0f62c214149b96db83516d7681.js": "/kurly-clone/precache-manifest.ff776f0f62c214149b96db83516d7681.js",
     "service-worker.js": "/kurly-clone/service-worker.js",
-    "static/css/main.4162bca4.chunk.css.map": "/kurly-clone/static/css/main.4162bca4.chunk.css.map"
+    "static/css/main.35528cc3.chunk.css.map": "/kurly-clone/static/css/main.35528cc3.chunk.css.map"
   }
 }
