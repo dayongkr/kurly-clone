@@ -180,7 +180,6 @@ header {
   left: 0;
   right: 0;
   position: absolute;
-  transition: left 1s;
 }
 
 #mainSlide .slideImg {

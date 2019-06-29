@@ -4,7 +4,6 @@ export default function Header() {
   const headerRef = useRef();
   const onScroll = () => {
     if (headerRef.current) {
-      console.log(headerRef.current.offsetTop);
       if (document.querySelector('#topPopUp').style.display === 'none') {
         if (window.scrollY >= 142 - 42) {
           headerRef.current.style.position = 'fixed';
