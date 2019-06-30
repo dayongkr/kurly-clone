@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "affb5e9b7561f7435582f1e5f39081b4",
+    "revision": "ce6c90d00d43faeceff9da4039517d66",
     "url": "/kurly-clone/index.html"
   },
   {
-    "revision": "688cc6b47fe429fbf6c5",
+    "revision": "d362daa34a0188e762eb",
     "url": "/kurly-clone/static/css/main.35528cc3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kurly-clone/static/js/2.3310f33a.chunk.js"
   },
   {
-    "revision": "688cc6b47fe429fbf6c5",
-    "url": "/kurly-clone/static/js/main.11a81610.chunk.js"
+    "revision": "d362daa34a0188e762eb",
+    "url": "/kurly-clone/static/js/main.2440e4d8.chunk.js"
   },
   {
     "revision": "4f5a6381895a84af5c35",

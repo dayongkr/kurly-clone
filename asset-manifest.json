@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kurly-clone/static/css/main.35528cc3.chunk.css",
-    "main.js": "/kurly-clone/static/js/main.11a81610.chunk.js",
-    "main.js.map": "/kurly-clone/static/js/main.11a81610.chunk.js.map",
+    "main.js": "/kurly-clone/static/js/main.2440e4d8.chunk.js",
+    "main.js.map": "/kurly-clone/static/js/main.2440e4d8.chunk.js.map",
     "runtime~main.js": "/kurly-clone/static/js/runtime~main.0ef87115.js",
     "runtime~main.js.map": "/kurly-clone/static/js/runtime~main.0ef87115.js.map",
     "static/js/2.3310f33a.chunk.js": "/kurly-clone/static/js/2.3310f33a.chunk.js",
     "static/js/2.3310f33a.chunk.js.map": "/kurly-clone/static/js/2.3310f33a.chunk.js.map",
     "index.html": "/kurly-clone/index.html",
-    "precache-manifest.a7a592452f39042810219d8338668992.js": "/kurly-clone/precache-manifest.a7a592452f39042810219d8338668992.js",
+    "precache-manifest.58c8a2c19fbdfbf3b4802691bb7d7a19.js": "/kurly-clone/precache-manifest.58c8a2c19fbdfbf3b4802691bb7d7a19.js",
     "service-worker.js": "/kurly-clone/service-worker.js",
     "static/css/main.35528cc3.chunk.css.map": "/kurly-clone/static/css/main.35528cc3.chunk.css.map"
   }
