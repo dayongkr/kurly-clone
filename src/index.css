@@ -221,6 +221,7 @@ header {
   text-align: center;
   margin: 75px 0px 35px;
   font-size: 28px;
+  min-width: 1050px;
 }
 
 .productShowsWrap {
@@ -301,7 +302,11 @@ header {
 }
 
 .eventShowsWrap {
-  width: 1;
+  min-width: 1050px;
+}
+
+.eventShows {
+  min-width: 1050px;
   height: 600px;
   background-color: #f7f7f7;
 }
