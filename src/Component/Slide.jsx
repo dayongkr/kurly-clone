@@ -8,8 +8,8 @@ export default function Slide() {
   const slideState = useRef(true);
   const onResize = () => {
     if (mainSlideRef.current) {
+      mainSlideRef.current.style.transition = 'none';
       if (window.innerWidth > 1050) {
-        mainSlideRef.current.style.transition = 'none';
         for (let i = 0; i < mainSlideRef.current.children.length; i += 1) {
           document.querySelectorAll('.slideImg')[i].style.width = `${
             window.innerWidth
@@ -81,13 +81,13 @@ export default function Slide() {
     onResize();
     const slideIntV = setInterval(() => {
       if (mainSlideRef.current) {
-        if (slideCount.current === mainSlideRef.current.children.length - 1) {
-          if (slideState.current) {
+        if (slideState.current) {
+          if (slideCount.current === mainSlideRef.current.children.length - 1) {
             slideCount.current = 0;
             mainSlideRef.current.style.left = '0px';
+          } else if (slideState.current) {
+            slideAnimation('next');
           }
-        } else if (slideState.current) {
-          slideAnimation('next');
         }
       }
     }, 3000);

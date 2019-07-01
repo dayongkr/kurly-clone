@@ -6,9 +6,10 @@ import Main from './Component/Main';
 
 function useClose() {
   document.querySelector('#topPopUp').style.opacity = 0;
+  document.querySelector('#topPopUp').style.transform = 'translateX(-100%)';
   setTimeout(() => {
     document.querySelector('#topPopUp').style.display = 'none';
-  }, 1000);
+  }, 800);
 }
 
 function App() {
@@ -35,7 +36,6 @@ function App() {
       </div>
       <Header />
       <Main />
-      <div style={{ height: '1000vh' }} />
     </>
   );
 }
