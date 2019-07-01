@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a911ccd1a9e06af8fc3cc656073715b2",
+    "revision": "7bfd03b15a30e7c27607715a421b407d",
     "url": "/kurly-clone/index.html"
   },
   {
-    "revision": "a12d0ec7f35796655c30",
-    "url": "/kurly-clone/static/css/main.67ede864.chunk.css"
+    "revision": "be14846b44a7ec35b256",
+    "url": "/kurly-clone/static/css/main.69697a48.chunk.css"
   },
   {
     "revision": "2315f74ce3c99316133d",
     "url": "/kurly-clone/static/js/2.3310f33a.chunk.js"
   },
   {
-    "revision": "a12d0ec7f35796655c30",
-    "url": "/kurly-clone/static/js/main.504d4df7.chunk.js"
+    "revision": "be14846b44a7ec35b256",
+    "url": "/kurly-clone/static/js/main.c7d2e119.chunk.js"
   },
   {
     "revision": "4f5a6381895a84af5c35",
