@@ -6,6 +6,7 @@ export default function Slide() {
   const slideControlRef = useRef();
   const slideCount = useRef(0);
   const slideState = useRef(true);
+  const intervalRef = useRef();
   const onResize = () => {
     if (mainSlideRef.current) {
       mainSlideRef.current.style.transition = 'none';
@@ -72,25 +73,34 @@ export default function Slide() {
     slideAnimation('next');
   };
   const onEnter = () => {
-    slideState.current = false;
+    clearInterval(intervalRef.current);
   };
   const onLeave = () => {
-    slideState.current = true;
+    const slideIntV = setInterval(() => {
+      if (mainSlideRef.current) {
+        if (slideCount.current === mainSlideRef.current.children.length - 1) {
+          slideCount.current = 0;
+          mainSlideRef.current.style.left = '0px';
+        } else if (slideState.current) {
+          slideAnimation('next');
+        }
+      }
+    }, 3000);
+    intervalRef.current = slideIntV;
   };
   useEffect(() => {
     onResize();
     const slideIntV = setInterval(() => {
       if (mainSlideRef.current) {
-        if (slideState.current) {
-          if (slideCount.current === mainSlideRef.current.children.length - 1) {
-            slideCount.current = 0;
-            mainSlideRef.current.style.left = '0px';
-          } else if (slideState.current) {
-            slideAnimation('next');
-          }
+        if (slideCount.current === mainSlideRef.current.children.length - 1) {
+          slideCount.current = 0;
+          mainSlideRef.current.style.left = '0px';
+        } else if (slideState.current) {
+          slideAnimation('next');
         }
       }
     }, 3000);
+    intervalRef.current = slideIntV;
     window.addEventListener('resize', onResize);
     if (mainSlideRef.current) {
       mainSlideRef.current.style.left = 0;
